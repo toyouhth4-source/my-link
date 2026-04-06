@@ -1,4 +1,4 @@
-import { Github, Linkedin, BookOpen, FileText, Globe } from "lucide-react"
+import { Github, Linkedin, BookOpen, FileText, Globe, Instagram, Youtube } from "lucide-react"
 
 export interface Link {
   id: string
@@ -19,6 +19,18 @@ export const links: Link[] = [
     title: "LinkedIn",
     url: "https://linkedin.com/in/hataehyun",
     icon: Linkedin,
+  },
+  {
+    id: "instagram",
+    title: "Instagram",
+    url: "https://instagram.com/hataehyun",
+    icon: Instagram,
+  },
+  {
+    id: "youtube",
+    title: "YouTube",
+    url: "https://youtube.com/@hataehyun",
+    icon: Youtube,
   },
   {
     id: "blog",
